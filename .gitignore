@@ -1,12 +1,23 @@
+# Python
 .venv/
 __pycache__/
 *.pyc
 
-data/
-models/
+# Large/raw data
+data/videos/
+frames/
 
+# Generated results
 results/
+
+# Temporary output
+*.txt
 *.log
 
+# IDE
 .vscode/
 .idea/
+
+# OS
+.DS_Store
+Thumbs.db
