@@ -21,3 +21,10 @@ results/
 # OS
 .DS_Store
 Thumbs.db
+# Large ROS dataset
+data/*.bag
+
+# Extracted dataset frames
+data/desk2-circle/rgb/
+data/desk2-circle/depth/
+data/desk2-circle/thermal/
